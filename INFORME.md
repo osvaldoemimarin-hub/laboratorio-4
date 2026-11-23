@@ -1,6 +1,6 @@
 # Informe — Laboratorio 4: LLMOps con un RAG local sobre documentos de INCIVA
 
-**Autor:** Osvaldo Marín · Maestría en IA y Ciencia de Datos (UAO) · Gestión de Proyectos de IA
+**Autor:** Osvaldo Marín Mora; Edgar Adrian Ortiz; Nilson Jacobo Gonzales; Juan Andrés Ruiz · Maestría en IA y Ciencia de Datos (UAO) · Gestión de Proyectos de IA
 **Fecha de ejecución:** 22 de noviembre de 2026
 **Caso:** asistente documental sobre el convenio interadministrativo de educación ambiental 2017
 (Gobernación del Valle – Secretaría de Educación / INCIVA), tomado del corpus de mi trabajo de grado.
