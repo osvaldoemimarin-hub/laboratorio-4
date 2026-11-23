@@ -1,0 +1,2 @@
+¿Cuál es el valor del convenio interadministrativo de educac | top1=0.756 | fragmentos con la clave (rango, fuente, sim): [(29, 'acta_inicio_convenio_2017.txt', 0.702), (58, 'convenio_2017.txt', 0.68), (61, 'informe_actividades_2017.txt', 0.679), (142, 'informe_actividades_2017.txt', 0.649)]
+¿Qué concluyó el informe de supervisión sobre la ejecución d | top1=0.786 | fragmentos con la clave (rango, fuente, sim): [(56, 'informe_supervision_2017.txt', 0.662), (224, 'convenio_2017.txt', 0.602), (534, 'estudios_previos_2017.txt', 0.535)]

@@ -1,0 +1,9 @@
+llm_consultas_total{estado="exito"} 1.0
+llm_tokens_entrada_total 718.0
+llm_tokens_salida_total 273.0
+llm_duracion_segundos_count 1.0
+llm_duracion_segundos_sum 11.979983287999971
+rag_recuperacion_segundos_count 1.0
+rag_recuperacion_segundos_sum 0.153529691000017
+rag_similitud_count 3.0
+rag_similitud_sum 2.2650418098659855

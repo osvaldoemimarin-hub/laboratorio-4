@@ -1,0 +1,3 @@
+NAME                       ID              SIZE      MODIFIED       
+nomic-embed-text:latest    0a109f422b47    274 MB    10 seconds ago    
+qwen2.5:1.5b               65ec06548149    986 MB    22 seconds ago    

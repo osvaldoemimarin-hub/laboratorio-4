@@ -1,0 +1,4 @@
+{'prompt_eval_count': 37, 'eval_count': 80, 'total_duration': 4219969964, 'eval_duration': 2421987000, 'load_duration': 1543296338} tok/s=33.0
+Lo siento, pero no puedo responder a esa pregunta porque no estoy familiarizado con el término "LLMOps". Este podría ser un acrónimo desconocido o estar relacionado con un tema específico que no puedo
+{'prompt_eval_count': 37, 'eval_count': 70, 'total_duration': 2085123787, 'eval_duration': 2044281000, 'load_duration': 1528947} tok/s=34.2
+Lo siento, pero no puedo responder con certeza sobre LLMOps porque no sé qué significa. LLMOps podría ser un acrónimo incompleto o se refiere a algo que no puedo identificar exactamente. Si puedes pro

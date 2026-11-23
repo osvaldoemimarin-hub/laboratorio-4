@@ -1,0 +1,6 @@
+NAME         IMAGE                    STATUS          PORTS
+grafana      grafana/grafana:latest   Up 21 minutes   127.0.0.1:3000->3000/tcp
+llmops-api   laboratorio_4-api        Up 21 minutes   127.0.0.1:8000->8000/tcp
+mlflow       laboratorio_4-mlflow     Up 21 minutes   127.0.0.1:5000->5000/tcp
+ollama       ollama/ollama:latest     Up 21 minutes   127.0.0.1:11435->11434/tcp
+prometheus   prom/prometheus:latest   Up 21 minutes   127.0.0.1:9090->9090/tcp

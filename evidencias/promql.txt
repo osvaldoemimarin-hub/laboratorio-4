@@ -1,0 +1,27 @@
+Consultas exitosas acumuladas
+  llm_consultas_total{estado="exito"}
+  = 84
+Consultas con error
+  llm_consultas_total{estado="error"}
+  = 1
+Tokens de entrada acumulados
+  llm_tokens_entrada_total
+  = 57875
+Tokens de salida acumulados
+  llm_tokens_salida_total
+  = 7161
+Tasa de tokens de salida (30m)
+  rate(llm_tokens_salida_total[30m])
+  = 3.992596
+Latencia promedio (30m)
+  rate(llm_duracion_segundos_sum[30m]) / rate(llm_duracion_segundos_count[30m])
+  = 7.126148
+Percentil 95 de latencia (30m)
+  histogram_quantile(0.95, rate(llm_duracion_segundos_bucket[30m]))
+  = 11.87499
+Similitud promedio (30m)
+  rate(rag_similitud_sum[30m]) / rate(rag_similitud_count[30m])
+  = 0.734804
+Recuperacion promedio (30m)
+  rate(rag_recuperacion_segundos_sum[30m]) / rate(rag_recuperacion_segundos_count[30m])
+  = 0.053103

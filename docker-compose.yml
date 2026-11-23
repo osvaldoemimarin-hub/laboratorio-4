@@ -1,0 +1,80 @@
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    ports:
+      # 11435 en el host: el 11434 lo ocupa el Ollama nativo de Windows (tesis, GPU AMD).
+      - "127.0.0.1:11435:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    restart: unless-stopped
+
+  mlflow:
+    build: ./mlflow
+    container_name: mlflow
+    command:
+      - mlflow
+      - server
+      - --host
+      - "0.0.0.0"
+      - --port
+      - "5000"
+      - --backend-store-uri
+      - sqlite:////mlflow-data/mlflow.db
+      - --artifacts-destination
+      - /mlflow-data/artifacts
+      - --allowed-hosts
+      - mlflow:5000,localhost:5000,127.0.0.1:5000
+    ports:
+      - "127.0.0.1:5000:5000"
+    volumes:
+      - mlflow_data:/mlflow-data
+    restart: unless-stopped
+
+  api:
+    build: ./app
+    container_name: llmops-api
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - ./app:/codigo
+      - ./documentos:/documentos
+      - ./datos:/datos
+    environment:
+      OLLAMA_URL: http://ollama:11434
+      MLFLOW_TRACKING_URI: http://mlflow:5000
+    depends_on:
+      - ollama
+      - mlflow
+    restart: unless-stopped
+
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: prometheus
+    ports:
+      - "127.0.0.1:9090:9090"
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - prometheus_data:/prometheus
+    restart: unless-stopped
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana
+    ports:
+      - "127.0.0.1:3000:3000"
+    environment:
+      GF_SECURITY_ADMIN_USER: admin
+      GF_SECURITY_ADMIN_PASSWORD: admin
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./grafana/provisioning:/etc/grafana/provisioning:ro
+    depends_on:
+      - prometheus
+    restart: unless-stopped
+
+volumes:
+  ollama_data:
+  mlflow_data:
+  prometheus_data:
+  grafana_data:

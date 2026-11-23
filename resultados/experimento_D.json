@@ -1,0 +1,177 @@
+{
+  "1": {
+    "total_segundos": 11.881957599999623,
+    "consultas": [
+      {
+        "consulta": 1,
+        "duracion_cliente": 11.881786199999624,
+        "duracion_ollama": 9.789339617,
+        "duracion_carga": 1.580892297,
+        "duracion_generacion": 4.580504,
+        "tiempo_recuperacion": 0.05006660000003649,
+        "tokens_entrada": 718,
+        "tokens_salida": 161
+      }
+    ]
+  },
+  "5": {
+    "total_segundos": 37.93200730000035,
+    "consultas": [
+      {
+        "consulta": 1,
+        "duracion_cliente": 12.512356299999738,
+        "duracion_ollama": 10.425106453,
+        "duracion_carga": 1.583935843,
+        "duracion_generacion": 5.44167,
+        "tiempo_recuperacion": 0.042459731000008105,
+        "tokens_entrada": 718,
+        "tokens_salida": 190
+      },
+      {
+        "consulta": 2,
+        "duracion_cliente": 6.870058999999856,
+        "duracion_ollama": 4.770516969,
+        "duracion_carga": 0.007772801,
+        "duracion_generacion": 4.653981,
+        "tiempo_recuperacion": 0.05070003600008022,
+        "tokens_entrada": 718,
+        "tokens_salida": 165
+      },
+      {
+        "consulta": 3,
+        "duracion_cliente": 6.729777300000023,
+        "duracion_ollama": 4.627710311,
+        "duracion_carga": 0.003918409,
+        "duracion_generacion": 4.460871,
+        "tiempo_recuperacion": 0.06182282600002509,
+        "tokens_entrada": 718,
+        "tokens_salida": 152
+      },
+      {
+        "consulta": 4,
+        "duracion_cliente": 6.028370999999879,
+        "duracion_ollama": 3.918311212,
+        "duracion_carga": 0.007783895,
+        "duracion_generacion": 3.818908,
+        "tiempo_recuperacion": 0.057510924000098385,
+        "tokens_entrada": 718,
+        "tokens_salida": 136
+      },
+      {
+        "consulta": 5,
+        "duracion_cliente": 5.790720800000145,
+        "duracion_ollama": 3.69350755,
+        "duracion_carga": 0.000800126,
+        "duracion_generacion": 3.600454,
+        "tiempo_recuperacion": 0.04909736900003736,
+        "tokens_entrada": 718,
+        "tokens_salida": 130
+      }
+    ]
+  },
+  "10": {
+    "total_segundos": 87.35889339999994,
+    "consultas": [
+      {
+        "consulta": 1,
+        "duracion_cliente": 11.896609399999761,
+        "duracion_ollama": 9.800295964,
+        "duracion_carga": 1.315654208,
+        "duracion_generacion": 5.104032,
+        "tiempo_recuperacion": 0.057888577000085206,
+        "tokens_entrada": 718,
+        "tokens_salida": 181
+      },
+      {
+        "consulta": 2,
+        "duracion_cliente": 6.867961200000082,
+        "duracion_ollama": 4.785291746,
+        "duracion_carga": 0.002067085,
+        "duracion_generacion": 4.652774,
+        "tiempo_recuperacion": 0.05097515700003896,
+        "tokens_entrada": 718,
+        "tokens_salida": 144
+      },
+      {
+        "consulta": 3,
+        "duracion_cliente": 10.08935429999974,
+        "duracion_ollama": 8.006790638,
+        "duracion_carga": 0.004034877,
+        "duracion_generacion": 7.868141,
+        "tiempo_recuperacion": 0.04975022100006754,
+        "tokens_entrada": 718,
+        "tokens_salida": 268
+      },
+      {
+        "consulta": 4,
+        "duracion_cliente": 6.4777445999998235,
+        "duracion_ollama": 4.353935493,
+        "duracion_carga": 0.004108017,
+        "duracion_generacion": 4.252176,
+        "tiempo_recuperacion": 0.07994472199993652,
+        "tokens_entrada": 718,
+        "tokens_salida": 151
+      },
+      {
+        "consulta": 5,
+        "duracion_cliente": 9.619623799999772,
+        "duracion_ollama": 7.557786158,
+        "duracion_carga": 0.009666069,
+        "duracion_generacion": 7.45517,
+        "tiempo_recuperacion": 0.03699549499992827,
+        "tokens_entrada": 718,
+        "tokens_salida": 258
+      },
+      {
+        "consulta": 6,
+        "duracion_cliente": 11.856327800000145,
+        "duracion_ollama": 9.734603973,
+        "duracion_carga": 0.002450907,
+        "duracion_generacion": 9.673497,
+        "tiempo_recuperacion": 0.06434948500009341,
+        "tokens_entrada": 718,
+        "tokens_salida": 330
+      },
+      {
+        "consulta": 7,
+        "duracion_cliente": 6.039911000000302,
+        "duracion_ollama": 3.951039771,
+        "duracion_carga": 0.007866785,
+        "duracion_generacion": 3.864725,
+        "tiempo_recuperacion": 0.04111432300010165,
+        "tokens_entrada": 718,
+        "tokens_salida": 138
+      },
+      {
+        "consulta": 8,
+        "duracion_cliente": 8.443717900000138,
+        "duracion_ollama": 6.36305327,
+        "duracion_carga": 0.007919341,
+        "duracion_generacion": 6.233905,
+        "tiempo_recuperacion": 0.043050305999940974,
+        "tokens_entrada": 718,
+        "tokens_salida": 222
+      },
+      {
+        "consulta": 9,
+        "duracion_cliente": 9.53439810000009,
+        "duracion_ollama": 7.433096322,
+        "duracion_carga": 0.003838664,
+        "duracion_generacion": 7.337622,
+        "tiempo_recuperacion": 0.05367855600002258,
+        "tokens_entrada": 718,
+        "tokens_salida": 253
+      },
+      {
+        "consulta": 10,
+        "duracion_cliente": 6.531855700000051,
+        "duracion_ollama": 4.451995496,
+        "duracion_carga": 0.001967756,
+        "duracion_generacion": 4.337565,
+        "tiempo_recuperacion": 0.0363683119999223,
+        "tokens_entrada": 718,
+        "tokens_salida": 144
+      }
+    ]
+  }
+}

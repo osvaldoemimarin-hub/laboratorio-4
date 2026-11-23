@@ -1,0 +1,117 @@
+[
+  {
+    "pregunta": "¿Cuál es el salario del director de INCIVA?",
+    "respuesta": "No existe información suficiente en los documentos proporcionados para responder esta pregunta.",
+    "rechazo_detectado": true,
+    "similitud_max": 0.6723529174918225,
+    "fuentes": [
+      {
+        "fuente": "convenio_2017.txt",
+        "fragmento": 87,
+        "similitud": 0.6723529174918225
+      },
+      {
+        "fuente": "informe_actividades_2017.txt",
+        "fragmento": 1,
+        "similitud": 0.6528002674396994
+      },
+      {
+        "fuente": "convenio_2017.txt",
+        "fragmento": 104,
+        "similitud": 0.6520854093592127
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál fue la facturación de INCIVA en 2017?",
+    "respuesta": "No existe información suficiente en los documentos proporcionados para responder esta pregunta.",
+    "rechazo_detectado": true,
+    "similitud_max": 0.7126703938350959,
+    "fuentes": [
+      {
+        "fuente": "informe_actividades_2017.txt",
+        "fragmento": 1,
+        "similitud": 0.7126703938350959
+      },
+      {
+        "fuente": "informe_supervision_2017.txt",
+        "fragmento": 1,
+        "similitud": 0.6897396620155094
+      },
+      {
+        "fuente": "estudios_previos_2017.txt",
+        "fragmento": 70,
+        "similitud": 0.6868628750099421
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuántos empleados tiene INCIVA?",
+    "respuesta": "No existe información suficiente en los documentos proporcionados para responder esta pregunta.",
+    "rechazo_detectado": true,
+    "similitud_max": 0.7084861485303233,
+    "fuentes": [
+      {
+        "fuente": "convenio_2017.txt",
+        "fragmento": 98,
+        "similitud": 0.7084861485303233
+      },
+      {
+        "fuente": "convenio_2017.txt",
+        "fragmento": 103,
+        "similitud": 0.7068847850795659
+      },
+      {
+        "fuente": "convenio_2017.txt",
+        "fragmento": 104,
+        "similitud": 0.7023710068849225
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Cuántos visitantes recibió el Museo Arqueológico La Merced en 2024?",
+    "respuesta": "No existe información suficiente en los documentos proporcionados para responder esta pregunta.",
+    "rechazo_detectado": true,
+    "similitud_max": 0.6706831681246606,
+    "fuentes": [
+      {
+        "fuente": "informe_supervision_2017.txt",
+        "fragmento": 98,
+        "similitud": 0.6706831681246606
+      },
+      {
+        "fuente": "informe_supervision_2017.txt",
+        "fragmento": 101,
+        "similitud": 0.6701060048898781
+      },
+      {
+        "fuente": "informe_actividades_2017.txt",
+        "fragmento": 91,
+        "similitud": 0.6692687451332984
+      }
+    ]
+  },
+  {
+    "pregunta": "¿Quién ganó el mundial de fútbol de 2022?",
+    "respuesta": "No existe información suficiente en los documentos proporcionados para responder esta pregunta sobre el ganador del mundial de fútbol de 2022.",
+    "rechazo_detectado": true,
+    "similitud_max": 0.594346273918723,
+    "fuentes": [
+      {
+        "fuente": "informe_supervision_2017.txt",
+        "fragmento": 116,
+        "similitud": 0.594346273918723
+      },
+      {
+        "fuente": "informe_supervision_2017.txt",
+        "fragmento": 120,
+        "similitud": 0.5928135035799653
+      },
+      {
+        "fuente": "informe_supervision_2017.txt",
+        "fragmento": 24,
+        "similitud": 0.5921198815302892
+      }
+    ]
+  }
+]

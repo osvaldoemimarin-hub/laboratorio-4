@@ -1,0 +1,17 @@
+trazas OK: 84
+== Traza completa de ejemplo (la primera consulta):
+traza tr-efd87560e81fbbe7986e2bbcd3be9ee2 duracion 11.93s
+   span pipeline_rag              11.93s
+   span recuperar_documentos       0.15s
+   span generar_respuesta_llm     11.74s
+   tokens_entrada 718 tokens_salida 273 carga 0.00s
+   pregunta: ¿Cuál es el valor del convenio interadministrativo de educación ambiental de 2017? top_k 3
+   fuentes: [('informe_supervision_2017.txt', 147, 0.756), ('convenio_2017.txt', 1, 0.756), ('informe_actividades_2017.txt', 135, 0.752)]
+== Consulta OK mas lenta:
+traza tr-efd87560e81fbbe7986e2bbcd3be9ee2 duracion 11.93s
+   span pipeline_rag              11.93s
+   span recuperar_documentos       0.15s
+   span generar_respuesta_llm     11.74s
+   tokens_entrada 718 tokens_salida 273 carga 0.00s
+   pregunta: ¿Cuál es el valor del convenio interadministrativo de educación ambiental de 2017? top_k 3
+   fuentes: [('informe_supervision_2017.txt', 147, 0.756), ('convenio_2017.txt', 1, 0.756), ('informe_actividades_2017.txt', 135, 0.752)]

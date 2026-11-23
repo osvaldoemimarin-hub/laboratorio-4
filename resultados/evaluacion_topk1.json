@@ -1,0 +1,222 @@
+[
+  {
+    "id": "G2",
+    "pregunta": "¿Cuál es el objeto del convenio de educación ambiental firmado en 2017?",
+    "esperada": "Aunar esfuerzos para el fortalecimiento de la cultura ambiental a través de los centros operativos de INCIVA",
+    "generada": "El objeto del convenio de educación ambiental firmado en 2017 es capacitar 3,773 niñas y niños en valores ambientales durante el año 2017.",
+    "sin_evidencia": false,
+    "contiene_clave": false,
+    "rechazo_detectado": false,
+    "fuentes": [
+      "estudios_previos_2017.txt#29"
+    ],
+    "similitud_max": 0.7594802248226572,
+    "top_k": 1,
+    "temperatura": 0.2,
+    "tokens_entrada": 380,
+    "tokens_salida": 44,
+    "tiempo_recuperacion": 0.05407440700003008,
+    "duracion_generacion": 1.324751,
+    "duracion": 4.9885715999998865
+  },
+  {
+    "id": "N01",
+    "pregunta": "¿Cuál es el valor del convenio interadministrativo de educación ambiental de 2017?",
+    "esperada": "$1.368.486.228",
+    "generada": "No existe información suficiente en los documentos para responder esta pregunta.",
+    "sin_evidencia": false,
+    "contiene_clave": false,
+    "rechazo_detectado": true,
+    "fuentes": [
+      "informe_supervision_2017.txt#147"
+    ],
+    "similitud_max": 0.756347548261908,
+    "top_k": 1,
+    "temperatura": 0.2,
+    "tokens_entrada": 326,
+    "tokens_salida": 14,
+    "tiempo_recuperacion": 0.05424128099991776,
+    "duracion_generacion": 0.370966,
+    "duracion": 3.5144447000000127
+  },
+  {
+    "id": "N03",
+    "pregunta": "¿En qué municipios se realizaron las campañas de educación ambiental del convenio de 2017?",
+    "esperada": "Cali, Buga, El Cerrito, Palmira, Tuluá y Calima Darién",
+    "generada": "Se realizaron las campañas de educación ambiental del convenio de 2017 en los siguientes municipios:\n\n1. Cali\n2. Buga\n3. El Cerrito\n4. Palmira\n5. Tuluá\n6. Calima\n\nEsta información se encuentra en el archivo fuente \"informe_actividades_2017.txt\", donde se detalla el desarrollo del objeto contractual y las intervenciones realizadas en los Centros Operativos de INCIVA y las 1.E. de los municipios mencionados.",
+    "sin_evidencia": false,
+    "contiene_clave": true,
+    "rechazo_detectado": false,
+    "fuentes": [
+      "informe_actividades_2017.txt#5"
+    ],
+    "similitud_max": 0.7943339660160538,
+    "top_k": 1,
+    "temperatura": 0.2,
+    "tokens_entrada": 324,
+    "tokens_salida": 120,
+    "tiempo_recuperacion": 0.33741557100006503,
+    "duracion_generacion": 3.240757,
+    "duracion": 6.6666729000003215
+  },
+  {
+    "id": "G4",
+    "pregunta": "¿Cuándo se firmó el acta de inicio del convenio?",
+    "esperada": "El 4 de julio de 2017 en Santiago de Cali",
+    "generada": "No existe información suficiente en los documentos para responder esta pregunta.",
+    "sin_evidencia": false,
+    "contiene_clave": false,
+    "rechazo_detectado": true,
+    "fuentes": [
+      "convenio_2017.txt#97"
+    ],
+    "similitud_max": 0.7417392073244328,
+    "top_k": 1,
+    "temperatura": 0.2,
+    "tokens_entrada": 319,
+    "tokens_salida": 14,
+    "tiempo_recuperacion": 0.04163012800006527,
+    "duracion_generacion": 0.348461,
+    "duracion": 3.4366721999999754
+  },
+  {
+    "id": "G1",
+    "pregunta": "¿Quién supervisa el convenio de educación ambiental firmado en 2017?",
+    "esperada": "Un supervisor de la Secretaría de Educación Departamental (Diego Fernando Cabrera García) y uno designado por INCIVA",
+    "generada": "No existe información suficiente en los documentos para responder esta pregunta.",
+    "sin_evidencia": false,
+    "contiene_clave": false,
+    "rechazo_detectado": true,
+    "fuentes": [
+      "estudios_previos_2017.txt#5"
+    ],
+    "similitud_max": 0.7590042768616978,
+    "top_k": 1,
+    "temperatura": 0.2,
+    "tokens_entrada": 323,
+    "tokens_salida": 14,
+    "tiempo_recuperacion": 0.041856083000084254,
+    "duracion_generacion": 0.3519,
+    "duracion": 3.4904617000001963
+  },
+  {
+    "id": "I1",
+    "pregunta": "¿Qué actividades se realizaron con las instituciones educativas de Buga?",
+    "esperada": "Campañas de educación ambiental con actividades lúdicas para niños de 2.° y 3.° de primaria y talleres a vigías ambientales en El Vínculo",
+    "generada": "No existe información suficiente en los documentos para responder esta pregunta.",
+    "sin_evidencia": false,
+    "contiene_clave": false,
+    "rechazo_detectado": true,
+    "fuentes": [
+      "informe_supervision_2017.txt#17"
+    ],
+    "similitud_max": 0.7595069074725943,
+    "top_k": 1,
+    "temperatura": 0.2,
+    "tokens_entrada": 300,
+    "tokens_salida": 14,
+    "tiempo_recuperacion": 0.04973353200000474,
+    "duracion_generacion": 0.357613,
+    "duracion": 3.32302159999972
+  },
+  {
+    "id": "N04",
+    "pregunta": "¿A qué grados escolares se dirigieron las actividades de los vigías ambientales en 2017?",
+    "esperada": "Básica primaria de 1.° a 4.° grado (principalmente 2.° y 3.°)",
+    "generada": "No existe información suficiente en los documentos para responder esta pregunta.",
+    "sin_evidencia": false,
+    "contiene_clave": false,
+    "rechazo_detectado": true,
+    "fuentes": [
+      "informe_supervision_2017.txt#180"
+    ],
+    "similitud_max": 0.7630795758733325,
+    "top_k": 1,
+    "temperatura": 0.2,
+    "tokens_entrada": 344,
+    "tokens_salida": 14,
+    "tiempo_recuperacion": 0.059388355999999476,
+    "duracion_generacion": 0.395464,
+    "duracion": 3.7002471999999216
+  },
+  {
+    "id": "I2",
+    "pregunta": "¿Qué concluyó el informe de supervisión sobre la ejecución del convenio?",
+    "esperada": "Las obligaciones del 4 de julio al 31 de octubre de 2017 se cumplieron a cabalidad y se recibieron a entera satisfacción",
+    "generada": "No existe información suficiente en los documentos para responder esta pregunta.",
+    "sin_evidencia": false,
+    "contiene_clave": false,
+    "rechazo_detectado": true,
+    "fuentes": [
+      "estudios_previos_2017.txt#90"
+    ],
+    "similitud_max": 0.7859363517818087,
+    "top_k": 1,
+    "temperatura": 0.2,
+    "tokens_entrada": 319,
+    "tokens_salida": 14,
+    "tiempo_recuperacion": 0.07052168100005929,
+    "duracion_generacion": 0.348821,
+    "duracion": 3.343093200000112
+  },
+  {
+    "id": "F5",
+    "pregunta": "¿Cuál fue el presupuesto total de funcionamiento de INCIVA en 2023?",
+    "esperada": "No existe información suficiente",
+    "generada": "No existe información suficiente en los documentos proporcionados para responder esta pregunta.",
+    "sin_evidencia": true,
+    "contiene_clave": null,
+    "rechazo_detectado": true,
+    "fuentes": [
+      "estudios_previos_2017.txt#70"
+    ],
+    "similitud_max": 0.7163008491012748,
+    "top_k": 1,
+    "temperatura": 0.2,
+    "tokens_entrada": 371,
+    "tokens_salida": 16,
+    "tiempo_recuperacion": 0.04081756100003986,
+    "duracion_generacion": 0.423885,
+    "duracion": 3.6379978999998457
+  },
+  {
+    "id": "F4",
+    "pregunta": "¿Cuántos visitantes recibió el Museo Arqueológico La Merced en 2024?",
+    "esperada": "No existe información suficiente",
+    "generada": "No existe información suficiente en los documentos para responder esta pregunta.",
+    "sin_evidencia": true,
+    "contiene_clave": null,
+    "rechazo_detectado": true,
+    "fuentes": [
+      "informe_supervision_2017.txt#98"
+    ],
+    "similitud_max": 0.6706831681246606,
+    "top_k": 1,
+    "temperatura": 0.2,
+    "tokens_entrada": 321,
+    "tokens_salida": 14,
+    "tiempo_recuperacion": 0.07037087300000167,
+    "duracion_generacion": 0.353149,
+    "duracion": 3.366461199999776
+  },
+  {
+    "id": "F2",
+    "pregunta": "¿Quién ganó el mundial de fútbol de 2022?",
+    "esperada": "No existe información suficiente",
+    "generada": "No existe información suficiente en los documentos para responder esta pregunta.",
+    "sin_evidencia": true,
+    "contiene_clave": null,
+    "rechazo_detectado": true,
+    "fuentes": [
+      "informe_supervision_2017.txt#116"
+    ],
+    "similitud_max": 0.594346273918723,
+    "top_k": 1,
+    "temperatura": 0.2,
+    "tokens_entrada": 310,
+    "tokens_salida": 14,
+    "tiempo_recuperacion": 0.03860698100004356,
+    "duracion_generacion": 0.354895,
+    "duracion": 3.257657399999971
+  }
+]

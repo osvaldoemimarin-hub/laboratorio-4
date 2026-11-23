@@ -1,0 +1,218 @@
+[
+  {
+    "temperatura": 0.0,
+    "repeticion": 1,
+    "pregunta": "¿Cuál es el objeto del convenio de educación ambiental firmado en 2017?",
+    "respuesta": "El objeto del convenio de educación ambiental firmado en 2017 es:\n\n\"Realizar campañas de educación ambiental realizadas en las Instituciones Educativas LE oficiales\"\n\nEsta respuesta se basa en la información contenida en el archivo \"convenio_2017.txt\", donde se menciona claramente que el convenio establece los componentes, productos y actividades a desarrollarse en el marco del presente convenio de Asociación.",
+    "tokens_salida": 104,
+    "duracion_generacion": 2.962638
+  },
+  {
+    "temperatura": 0.0,
+    "repeticion": 2,
+    "pregunta": "¿Cuál es el objeto del convenio de educación ambiental firmado en 2017?",
+    "respuesta": "El objeto del convenio de educación ambiental firmado en 2017 es:\n\n\"Realizar campañas de educación ambiental realizadas en las Instituciones Educativas LE oficiales\"\n\nEsta respuesta se basa en la información del archivo \"convenio_2017.txt\", donde se menciona claramente que el convenio establece los componentes, productos y actividades a desarrollarse en el marco del presente convenio de Asociación, especificando que el objetivo es \"Realizar campañas de educación ambiental\".",
+    "tokens_salida": 118,
+    "duracion_generacion": 3.374376
+  },
+  {
+    "temperatura": 0.0,
+    "repeticion": 3,
+    "pregunta": "¿Cuál es el objeto del convenio de educación ambiental firmado en 2017?",
+    "respuesta": "El objeto del convenio de educación ambiental firmado en 2017 es:\n\n\"Realizar campañas de educación ambiental realizadas en las Instituciones Educativas LE oficiales\"\n\nEsta respuesta se basa en la información del archivo \"convenio_2017.txt\", donde se menciona claramente que el convenio establece los componentes, productos y actividades a desarrollarse en el marco del presente convenio de Asociación, especificando que el objetivo es \"Realizar campañas de educación ambiental\".",
+    "tokens_salida": 118,
+    "duracion_generacion": 3.324503
+  },
+  {
+    "temperatura": 0.0,
+    "repeticion": 1,
+    "pregunta": "¿Cuándo se firmó el acta de inicio del convenio?",
+    "respuesta": "El acta de inicio del convenio se firmó el 4 de Julio de 2017.",
+    "tokens_salida": 24,
+    "duracion_generacion": 0.651268
+  },
+  {
+    "temperatura": 0.0,
+    "repeticion": 2,
+    "pregunta": "¿Cuándo se firmó el acta de inicio del convenio?",
+    "respuesta": "Según el contenido del documento \"acta_inicio_convenio_2017.txt\", la acta de inicio del convenio se firmó el 4 de Julio de 2017.",
+    "tokens_salida": 44,
+    "duracion_generacion": 1.196229
+  },
+  {
+    "temperatura": 0.0,
+    "repeticion": 3,
+    "pregunta": "¿Cuándo se firmó el acta de inicio del convenio?",
+    "respuesta": "Según el contenido del documento \"acta_inicio_convenio_2017.txt\", la acta de inicio del convenio se firmó el 4 de Julio de 2017.",
+    "tokens_salida": 44,
+    "duracion_generacion": 1.192454
+  },
+  {
+    "temperatura": 0.0,
+    "repeticion": 1,
+    "pregunta": "¿Qué actividades se realizaron con las instituciones educativas de Buga?",
+    "respuesta": "No existe información suficiente en los documentos proporcionados para responder esta pregunta.",
+    "tokens_salida": 16,
+    "duracion_generacion": 0.413817
+  },
+  {
+    "temperatura": 0.0,
+    "repeticion": 2,
+    "pregunta": "¿Qué actividades se realizaron con las instituciones educativas de Buga?",
+    "respuesta": "No existe información suficiente en los documentos proporcionados para responder esta pregunta.",
+    "tokens_salida": 16,
+    "duracion_generacion": 0.430836
+  },
+  {
+    "temperatura": 0.0,
+    "repeticion": 3,
+    "pregunta": "¿Qué actividades se realizaron con las instituciones educativas de Buga?",
+    "respuesta": "No existe información suficiente en los documentos proporcionados para responder esta pregunta.",
+    "tokens_salida": 16,
+    "duracion_generacion": 0.437977
+  },
+  {
+    "temperatura": 0.5,
+    "repeticion": 1,
+    "pregunta": "¿Cuál es el objeto del convenio de educación ambiental firmado en 2017?",
+    "respuesta": "El objeto del convenio de educación ambiental firmado en 2017 es capacitar 3,773 niñas y niños en valores ambientales durante el año 2017.",
+    "tokens_salida": 44,
+    "duracion_generacion": 1.266853
+  },
+  {
+    "temperatura": 0.5,
+    "repeticion": 2,
+    "pregunta": "¿Cuál es el objeto del convenio de educación ambiental firmado en 2017?",
+    "respuesta": "El objeto del convenio de educación ambiental firmado en 2017 es:\n\n\"Realizar campañas de educación ambiental realizadas en las Instituciones Educativas LE de oficiales\"\n\nEsta información se encuentra en el archivo \"estudios_previos_2017.txt\", donde se menciona claramente el objetivo general del convenio, que es capacitar a 3,773 niñas y niños en valores ambientales durante el año 2017.",
+    "tokens_salida": 106,
+    "duracion_generacion": 3.210689
+  },
+  {
+    "temperatura": 0.5,
+    "repeticion": 3,
+    "pregunta": "¿Cuál es el objeto del convenio de educación ambiental firmado en 2017?",
+    "respuesta": "El objeto del convenio de educación ambiental firmado en 2017 es:\n\n\"Realizar campañas de educación ambiental realizadas en las Instituciones Educativas LE oficiales.\"\n\nEsta respuesta se basa en la información proporcionada en el contexto documental, donde se menciona claramente el objetivo del convenio en el título del documento: \"Objetivo General: Capacitar 3,773 niñas y niños en valores ambientales durante el año 2017.\"",
+    "tokens_salida": 109,
+    "duracion_generacion": 3.031525
+  },
+  {
+    "temperatura": 0.5,
+    "repeticion": 1,
+    "pregunta": "¿Cuándo se firmó el acta de inicio del convenio?",
+    "respuesta": "Según el contenido del documento \"acta_inicio_convenio_2017.txt\", la fecha de la firma del acta de inicio del convenio fue el 4 de Julio de 2017.",
+    "tokens_salida": 47,
+    "duracion_generacion": 1.338602
+  },
+  {
+    "temperatura": 0.5,
+    "repeticion": 2,
+    "pregunta": "¿Cuándo se firmó el acta de inicio del convenio?",
+    "respuesta": "El acta de inicio del convenio se firmó el 4 de Julio de 2017.",
+    "tokens_salida": 24,
+    "duracion_generacion": 0.63707
+  },
+  {
+    "temperatura": 0.5,
+    "repeticion": 3,
+    "pregunta": "¿Cuándo se firmó el acta de inicio del convenio?",
+    "respuesta": "Según el contenido del documento \"acta_inicio_convenio_2017.txt\", la acta de inicio del convenio fue firmada el 4 de Julio de 2017.",
+    "tokens_salida": 44,
+    "duracion_generacion": 1.216417
+  },
+  {
+    "temperatura": 0.5,
+    "repeticion": 1,
+    "pregunta": "¿Qué actividades se realizaron con las instituciones educativas de Buga?",
+    "respuesta": "Según el contexto documental proporcionado, no se menciona específicamente qué actividades se realizaron con las instituciones educativas de Buga. La información proporcionada se centra en los municipios de Cali, Buga, El Cerrito, Palmira, Tuluá y Calima Darién, pero no se especifica la actividad realizada en Buga. Por lo tanto, la respuesta es:\n\nNo existe información suficiente en los documentos para responder esta pregunta.",
+    "tokens_salida": 101,
+    "duracion_generacion": 2.90191
+  },
+  {
+    "temperatura": 0.5,
+    "repeticion": 2,
+    "pregunta": "¿Qué actividades se realizaron con las instituciones educativas de Buga?",
+    "respuesta": "No existe información suficiente en los documentos proporcionados para responder esta pregunta.",
+    "tokens_salida": 16,
+    "duracion_generacion": 0.454943
+  },
+  {
+    "temperatura": 0.5,
+    "repeticion": 3,
+    "pregunta": "¿Qué actividades se realizaron con las instituciones educativas de Buga?",
+    "respuesta": "Se realizaron actividades lúdicas orientadas al fortalecimiento de la educación ambiental en las instituciones educativas de Buga, específicamente en las 1.E. de los municipios de Cali, Buga, El Cerrito, Palmira, Tuluá y Calima Darién.",
+    "tokens_salida": 67,
+    "duracion_generacion": 1.931324
+  },
+  {
+    "temperatura": 1.0,
+    "repeticion": 1,
+    "pregunta": "¿Cuál es el objeto del convenio de educación ambiental firmado en 2017?",
+    "respuesta": "El objeto del convenio de educación ambiental firmado en 2017 es el de \"Realizar campañas de educación ambiental realizadas en las Instituciones Educativas LE oficiales\".",
+    "tokens_salida": 45,
+    "duracion_generacion": 1.336228
+  },
+  {
+    "temperatura": 1.0,
+    "repeticion": 2,
+    "pregunta": "¿Cuál es el objeto del convenio de educación ambiental firmado en 2017?",
+    "respuesta": "El objeto del convenio de educación ambiental firmado en 2017 se encuentra en el archivo `convenio_2017.txt`. Según el contenido de ese archivo, el objeto del convenio incluye la realización de campañas de educación ambiental en las instituciones educativas locales y municipales de Cali, Buga, El Cerrito, y otros, en línea con el Plan de Desarrollo: \"El Valle Esta en Vos\" 2016-2019 de la Región del Valle del Cauca, así como en línea con las metas y objetivos específicos del Objetivo General y de los Objetivos Específicos para la generación de conciencia y cultura ambiental en niñas y niños.",
+    "tokens_salida": 169,
+    "duracion_generacion": 5.007488
+  },
+  {
+    "temperatura": 1.0,
+    "repeticion": 3,
+    "pregunta": "¿Cuál es el objeto del convenio de educación ambiental firmado en 2017?",
+    "respuesta": "El objeto del convenio de educación ambiental firmado en 2017 es \"Realizar campañas de educación ambiental en las instituciones Educativas de la entidad Departamento del Valle del Cauca durante el año 2017\".",
+    "tokens_salida": 56,
+    "duracion_generacion": 1.625604
+  },
+  {
+    "temperatura": 1.0,
+    "repeticion": 1,
+    "pregunta": "¿Cuándo se firmó el acta de inicio del convenio?",
+    "respuesta": "La fecha de la firma del acta de inicio del convenio, que es la que determina el inicio del plazo de ejecución, se menciona en la Cláusula SÉPTIMA del convenio: \"El plazo de ejecución del Convenio será contado desde la suscripción del acta de inicio hasta el 11 de Diciembre de 2017 o hasta agotar el valor de la disponibilidad Presupuestal de la presente vigencia.\"\n\nPor lo tanto, la fecha de firma del acta de inicio es 18 de marzo de 2016, que coincide con la fecha de aprobación del convenio.",
+    "tokens_salida": 146,
+    "duracion_generacion": 4.220977
+  },
+  {
+    "temperatura": 1.0,
+    "repeticion": 2,
+    "pregunta": "¿Cuándo se firmó el acta de inicio del convenio?",
+    "respuesta": "Según el contenido del documento, la fecha de la suscripción del acta de inicio del convenio se indica como 18 de marzo de 2016. La fecha de apertura del convenio en la versión más reciente es 28 de junio de 2017, lo que sugiere que la firma del acta de inicio probablemente ocurrió antes de la fecha de apertura del convenio.",
+    "tokens_salida": 93,
+    "duracion_generacion": 2.749111
+  },
+  {
+    "temperatura": 1.0,
+    "repeticion": 3,
+    "pregunta": "¿Cuándo se firmó el acta de inicio del convenio?",
+    "respuesta": "Según el contenido de la fuente acta_inicio_convenio_2017.txt, la firma del acta de inicio del convenio se realizó el 4 de Julio de 2017.",
+    "tokens_salida": 47,
+    "duracion_generacion": 1.512695
+  },
+  {
+    "temperatura": 1.0,
+    "repeticion": 1,
+    "pregunta": "¿Qué actividades se realizaron con las instituciones educativas de Buga?",
+    "respuesta": "No existe información suficiente en los documentos proporcionados para responder la pregunta específica sobre las actividades realizadas con las instituciones educativas de Buga.",
+    "tokens_salida": 31,
+    "duracion_generacion": 0.872079
+  },
+  {
+    "temperatura": 1.0,
+    "repeticion": 2,
+    "pregunta": "¿Qué actividades se realizaron con las instituciones educativas de Buga?",
+    "respuesta": "Se realizaron actividades lúdicas orientadas al fortalecimiento de la educación ambiental con las instituciones educativas de Buga. La información específica no se encuentra en los documentos proporcionados.",
+    "tokens_salida": 42,
+    "duracion_generacion": 1.198753
+  },
+  {
+    "temperatura": 1.0,
+    "repeticion": 3,
+    "pregunta": "¿Qué actividades se realizaron con las instituciones educativas de Buga?",
+    "respuesta": "No existe información suficiente en los documentos proporcionados para responder la pregunta sobre las actividades realizadas con las instituciones educativas de Buga.",
+    "tokens_salida": 30,
+    "duracion_generacion": 0.849404
+  }
+]

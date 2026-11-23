@@ -1,0 +1,10 @@
+# Entorno local
+.venv/
+__pycache__/
+*.pyc
+
+# Índice vectorial regenerable (POST /indexar); pesa varios MB
+datos/indice.json
+
+# PDF del enunciado (material del curso)
+LLMOps.pdf

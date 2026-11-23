@@ -1,0 +1,33 @@
+{
+  "pregunta": "¿Cuál es el valor del convenio interadministrativo de educación ambiental de 2017?",
+  "respuesta": "El convenio interadministrativo de educación ambiental de 2017 tiene un valor significativo para el proyecto de valores ambientales de INCIVA. Este documento establece un acuerdo entre el Departamento del Valle del Cauca, la Secretaría de Educación Departamental, y el Instituto para la Investigación y la Preservación del Patrimonio Cultural y Natural del Valle del Cauca, lo que facilita la coordinación y la implementación de programas educativos ambientales en la región.\n\nEl convenio proporciona un marco legal y un enfoque estructurado para la educación ambiental en la educación primaria, asegurando que los contenidos se integren en el horizonte curricular de manera sistemática. Además, el convenio incluye metas claras y objetivos específicos para la divulgación y socialización del proyecto de valores ambientales, lo que contribuye a la sensibilización y comprensión de los valores ambientales en la población educativa.\n\nEn resumen, el convenio interadministrativo de educación ambiental de 2017 es un documento clave que facilita la implementación efectiva del proyecto de valores ambientales en la educación primaria, asegurando un enfoque sistemático y estructurado en la educación ambiental.",
+  "top_k": 3,
+  "temperatura": 0.2,
+  "modelo": "qwen2.5:1.5b",
+  "tokens_entrada": 718,
+  "tokens_salida": 273,
+  "duracion_ollama": 11.730830459,
+  "duracion_generacion": 8.279648999,
+  "duracion_carga": 0.004104884,
+  "tiempo_recuperacion": 0.153529691000017,
+  "fuentes": [
+    {
+      "fuente": "informe_supervision_2017.txt",
+      "fragmento": 147,
+      "texto": "re el horizonte curricular de nuestro proyecto de valores ambientales analizando\n\nla metodología y estrategias metodológicas a utilizar para la divulgación y socialización del proyecto\n\nde valores ambientales en las J.E.\n\n2 Jornada de Capacitación pedagógica:\n\nTema: Valores ambientales ]\n\nDía: 28 de agosto de 2017\n\nLugar: Museo de ciencias natural CAL] Avenida Roosevelt 1£24 80\n\nHora: 8:30 am a 3 pm\n\nObjetivos:\n\nIdentificar el concepto de valor . e :\n\nConocer los valores ambientales\n\nSensibiliza",
+      "similitud": 0.756347548261908
+    },
+    {
+      "fuente": "convenio_2017.txt",
+      "fragmento": 1,
+      "texto": "CONVENIO INTERADMINISTRATIVO DE EDUCACIÓN AMBIENTAL 2017 - INCIVA\n\n\n[Página 1]\nDepartamento del Valle \ndel \nCódigo: FO-M9-P2-25 \nCauca \nSECRETARIA DE EDUCACION \nVersión: 01 \nCONVENIO INTERADMINISTRATIVO \nFecha de aprobación: \n29/12/2016 \nGobernación \nNIT 890399029-5 \nPágina 1 de 16 \nCONVENIO INTERADMINISTRATIVO No. 0082-19-01 —23 y) \n del \n11 )C z® /4 \nCELEBRADO ENTRE EL DEPARTAMENTO DEL VALLE DEL CAUCA — SECRETARÍA \nDE EDUCACIÓN DEPARTAMENTAL Y EL INSTITUTO PARA LA INVESTIGACIÓN Y \nLA PRESERVAC",
+      "similitud": 0.7562248602199131
+    },
+    {
+      "fuente": "informe_actividades_2017.txt",
+      "fragmento": 135,
+      "texto": "s de educación primaria\nResultado obtenido:\nComprensión sobre el horizonte curricular de nuestro proyecto de valores ambientales analizando la\nmetodología y estrategias metodológicas a utilizar para la divulgación y socialización del proyecto de\nvalores ambientales en las 1.E.\n2 Jornada de Capacitación pedagógica:\nTema: Valores ambientales\nDía: 28 de agosto de 2017\nLugar: Museo de ciencias natural CALI Avenida Roosevelt 124 80\nHora: 8:30 am a 3 pm\nObjetivos:\nIdentificar el concepto de valor\nCono",
+      "similitud": 0.7524694013841645
+    }
+  ]
+}
