@@ -2,7 +2,7 @@
 
 Laboratorio de Gestión de Proyectos de IA (Maestría en IA y Ciencia de Datos, UAO), basado en la guía
 *"LLMOps desde cero en Windows con WSL2 y Docker"* (J. M. Núñez Velasco). En lugar de la empresa
-ficticia TecnoFábrica, el asistente consulta documentos reales de mi trabajo de grado: el **convenio
+ficticia TecnoFábrica, el asistente consulta documentos reales del trabajo de grado de Osvaldo Marin: el **convenio
 interadministrativo de educación ambiental 2017 entre la Gobernación del Valle (Secretaría de
 Educación) e INCIVA** (tesis *"Arquitectura RAG de código abierto para consulta inteligente y
 trazabilidad de recursos públicos en el proyecto de educación ambiental de INCIVA (2018–2025)"*).
