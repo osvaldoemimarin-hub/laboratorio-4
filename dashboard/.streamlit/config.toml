@@ -1,0 +1,36 @@
+[server]
+address = "0.0.0.0"
+port = 8501
+headless = true
+enableStaticServing = true
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "dark"
+primaryColor = "#E87536"
+backgroundColor = "#111113"
+secondaryBackgroundColor = "#1B1B1E"
+textColor = "#F1EDE5"
+font = "Inter"
+codeFont = "IBM Plex Mono"
+headingFont = "Manrope"
+
+[[theme.fontFaces]]
+family = "Inter"
+url = "app/static/inter.woff2"
+style = "normal"
+weight = "400 700"
+
+[[theme.fontFaces]]
+family = "IBM Plex Mono"
+url = "app/static/ibm-plex-mono.woff2"
+style = "normal"
+weight = 400
+
+[[theme.fontFaces]]
+family = "Manrope"
+url = "app/static/manrope.woff2"
+style = "normal"
+weight = "700 800"

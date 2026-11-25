@@ -12,13 +12,10 @@ Los resultados medidos y su análisis están en **[INFORME.md](INFORME.md)**.
 ## Arquitectura
 
 ```
-Usuario ─► FastAPI (api:8000) ─► RAG: embeddings nomic-embed-text + coseno sobre datos/indice.json
-                 │                      │
-                 ├────────────────► Ollama (qwen2.5:1.5b, contenedor, CPU)
-                 │
-                 ├─ trazas ──► MLflow (5000)     pipeline_rag ─┬─ recuperar_documentos
-                 │                                             └─ generar_respuesta_llm
-                 └─ /metrics ◄── Prometheus (9090) ◄── Grafana (3000, dashboard precargado)
+Usuario ─► Streamlit (8501) ─► FastAPI (api:8000)
+                               ├─ RAG ──► Ollama (nomic-embed-text y qwen2.5:1.5b)
+                               ├─ trazas ──► MLflow (5000)
+                               └─ /metrics ◄── Prometheus (9090) ◄── Grafana (3000)
 ```
 
 | Servicio | Imagen | URL en Windows |
@@ -26,6 +23,7 @@ Usuario ─► FastAPI (api:8000) ─► RAG: embeddings nomic-embed-text + cose
 | ollama | `ollama/ollama` | http://localhost:11435 (ver nota) |
 | mlflow | `./mlflow` (python 3.11 + mlflow 3) | http://localhost:5000 |
 | api | `./app` (FastAPI) | http://localhost:8000/docs |
+| dashboard | `./dashboard` (Streamlit / ContractFlow) | http://localhost:8501 |
 | prometheus | `prom/prometheus` | http://localhost:9090 |
 | grafana | `grafana/grafana` (admin/admin) | http://localhost:3000 |
 
@@ -78,6 +76,16 @@ py -3.11 -m venv .venv
 > En Git Bash para Windows, `curl -d` con tildes envía el cuerpo en la página de códigos local y
 > FastAPI responde 400; usar Swagger (`/docs`) o los scripts de Python para preguntar.
 
+### Dashboard ContractFlow
+
+Después de cargar los modelos e indexar el corpus, abre **[ContractFlow](http://localhost:8501)**.
+Escribe o selecciona una pregunta, ajusta Top K y temperatura en la barra lateral y pulsa **Consultar**.
+El dashboard muestra la respuesta, los fragmentos recuperados, su similitud y los tiempos y tokens de la consulta.
+
+Si ya tienes los modelos y el índice, `docker compose up -d --build dashboard` levanta el dashboard junto con la API y sus dependencias.
+Streamlit accede a FastAPI por `http://api:8000` dentro de Docker mediante `RAG_API_URL`.
+La interfaz aplica la paleta y la tipografía del [manual de NEXORIUM](documentos/Manual_de_Marca_NEXORIUM_v3.pdf) e incorpora su logotipo maestro, extraído de la página 4.
+
 Detener sin borrar datos: `docker compose down` (no usar `-v`, que borra modelos y métricas).
 
 ## Estructura
@@ -85,6 +93,7 @@ Detener sin borrar datos: `docker compose down` (no usar `-v`, que borra modelos
 ```
 ├── docker-compose.yml
 ├── app/            main.py, rag.py, metricas.py, evaluacion.py, experimentos.py, resumen.py, Dockerfile
+├── dashboard/      interfaz Streamlit de ContractFlow, estilos, activos y Dockerfile
 ├── mlflow/         Dockerfile
 ├── prometheus/     prometheus.yml
 ├── grafana/provisioning/{datasources,dashboards}/
